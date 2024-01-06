@@ -47,6 +47,11 @@
     transform: scaleX(0.2);
   }
 
+  .navbar .search-form {
+    width: 90%;
+    right: 2rem;
+  }
+
   .about .row {
     flex-wrap: wrap;
   }
@@ -120,6 +125,10 @@
 
   .footer-col h4::before {
     all: unset;
+  }
+
+  .modal .modal-content {
+    flex-wrap: wrap;
   }
 }
 

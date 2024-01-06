@@ -30,15 +30,60 @@
         <a href="#home">HOME</a>
         <a href="#about">TENTANG KAMI</a>
         <a href="#menu">MENU</a>
+        <a href="#products">PRODUCT</a>
         <a href="#location">LOKASI</a>
         <a href="#contact">CONTACT</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i> </a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i> </a>
+        <a href="#" id="search-button"><i data-feather="search"></i> </a>
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i> </a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i> </a>
       </div>
+
+      <!-- Search Form -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- Shopping Cart -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="assets/img/contactimg1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="assets/img/contactimg1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="assets/img/contactimg1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="assets/img/contactimg1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart End -->
     </nav>
     <!-- Navbar End -->
 
@@ -49,7 +94,7 @@
           NIKMAT<span> RASANYA</span><br />
           BIKIN<span> BAHAGIA</span>
         </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, perferendis!</p>
+        <p>5 HAYAM! INDONESIA</p>
         <a href="#" class="cta">Beli Sekarang</a>
       </main>
     </section>
@@ -64,9 +109,12 @@
           <img src="assets/img/about.jpg" alt="Tentang Kami" />
         </div>
         <div class="content">
-          <h3>Kenapa memilih 5 hayam?</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, voluptas nulla illo explicabo ullam ducimus!</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas nihil nulla necessitatibus eaque architecto cupiditate nostrum ex cum quae veritatis!</p>
+          <h3>5 HAYAM! INDONESIA</h3>
+          <p>
+            5 HAYAM! adalah salah satu brand kuliner dengan sistem usaha kemitraan yang berdiri sejak tahun 2022 yang bernaung di bawah NARATAS GROUP, berpusat di Kota Ciamis, Jawa Barat. Perusahaan kami bertujuan untuk memberikan pelayanan
+            nomor satu, dengan tetap menjaga kualitas nomor satu kami.
+          </p>
+          <p>Dalam mencapai tujuan tersebut, kami didukung oleh sumber daya yang profesional, dan juga berkualitas. Hal ini guna menjaga kepuasan para mitra kami yang sudah mempercayakan perusahaan kami, dalam membantu usahanya.</p>
         </div>
       </div>
     </section>
@@ -75,7 +123,7 @@
     <!-- Menu Section -->
     <section id="menu" class="menu">
       <h2><span>MENU</span> KAMI</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis eius aspernatur molestiae, facilis reiciendis a.</p>
+      <p>Kami juga menyediakan produk yang bergizi, halal dan aman dikonsumsi oleh masyarakat guna mewujudkan kepuasan pelanggan kami.</p>
 
       <div class="row">
         <div class="box">
@@ -186,6 +234,96 @@
     </section>
     <!-- Menu Section End -->
 
+    <!-- Products Section -->
+    <section class="products" id="products">
+      <h2><span>PRODUK UNGGULAN</span> KAMI</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, sit. Esse commodi ratione quasi, illo dolore saepe libero earum. Magnam!</p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="assets/img/product/product1.png" alt="Produk 1" />
+          </div>
+          <div class="product-content">
+            <h3>Ayam</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href=""><i data-feather="shopping-cart"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="assets/img/product/product2.png" alt="Produk 1" />
+          </div>
+          <div class="product-content">
+            <h3>Burger</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href=""><i data-feather="shopping-cart"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="assets/img/product/product3.png" alt="Produk 1" />
+          </div>
+          <div class="product-content">
+            <h3>Minuman</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href=""><i data-feather="shopping-cart"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="assets/img/product/product4.png" alt="Produk 1" />
+          </div>
+          <div class="product-content">
+            <h3>Sausage</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products End -->
+
     <!-- Location Section -->
     <section id="location" class="location">
       <h2><span>LOKASI</span> KAMI</h2>
@@ -202,23 +340,33 @@
 
         <div class="address">
           <p>
-            <a href=""
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/place/5+HAYAM!+Imbanagara/@-7.3169373,108.3044155,17z/data=!3m1!4b1!4m6!3m5!1s0x2e6f59ee109e666d:0xbfcfc027d6f421dc!8m2!3d-7.3169373!4d108.3069904!16s%2Fg%2F11kp_8w8mk?hl=id&entry=ttu"
               ><span><i data-feather="map-pin"></i></span
             ></a>
             5 HAYAM! - Imbanagara Ciamis <br />
-            <a href=""
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/place/5+HAYAM!+Ciamis+Sindangkasih/@-7.3100365,108.2340145,15.71z/data=!4m6!3m5!1s0x2e6f5b294954198d:0x6dfd9ff425ac291f!8m2!3d-7.3043357!4d108.2432648!16s%2Fg%2F11jz6d9gvd?hl=id&entry=ttu"
               ><span><i data-feather="map-pin"></i></span
             ></a>
             5 HAYAM! - Sindangkasih Ciamis <br />
-            <a href=""
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/place/5+HAYAM!+Lengkong+Tasikmalaya/@-7.3235132,108.226193,17z/data=!3m1!4b1!4m6!3m5!1s0x2e6f57b501bd4dd9:0xc9f0d59c18146ecd!8m2!3d-7.3235132!4d108.2287679!16s%2Fg%2F11tn2vvyp1?hl=id&entry=ttu"
               ><span><i data-feather="map-pin"></i></span
             ></a>
             5 HAYAM! - Lengkong Tasikmalaya <br />
-            <a href=""
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/place/5+HAYAM!+Indihiang/@-7.2901227,108.1976995,17z/data=!3m1!4b1!4m6!3m5!1s0x2e6f512899b1e62d:0x38d3d0a242df701c!8m2!3d-7.2901227!4d108.2002744!16s%2Fg%2F11v67fjf54?hl=id&entry=ttu"
               ><span><i data-feather="map-pin"></i></span
             ></a>
-            5 HAYAM! - Cinehel Tasikmalaya <br />
-            <a href=""
+            5 HAYAM! - Indihiang Tasikmalaya <br />
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/place/5+Hayam+Indonesia+Margahayu,+Jl.+Mars+Utara+No.6A,+Manjahlega,+Kec.+Rancasari,+Kota+Bandung,+Jawa+Barat+40286/@-6.9422406,107.6669329,17z/data=!4m6!3m5!1s0x2e68e9004bdf336f:0x6751d50a4c96b685!8m2!3d-6.9422406!4d107.6669329!16s%2Fg%2F11vk6_jnzl?hl=id"
               ><span><i data-feather="map-pin"></i></span
             ></a>
             5 HAYAM! - Margahayu Bandung
@@ -289,14 +437,37 @@
       <div class="footer-col">
         <h4>Follow Us</h4>
         <div class="links">
-          <a href=""><i class="social-media" data-feather="instagram"></i></a>
-          <a href=""><i class="social-media" data-feather="instagram"></i></a>
-          <a href=""><i class="social-media" data-feather="instagram"></i></a>
+          <a target="_blank" href="https://www.instagram.com/5hayam_idn/"><i class="social-media" data-feather="instagram"></i></a>
+          <a target="_blank" href="https://www.youtube.com/@5hayamindonesia"><i class="social-media" data-feather="youtube"></i></a>
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100088280531119"><i class="social-media" data-feather="facebook"></i></a>
         </div>
       </div>
     </footer>
-
     <!-- Footer End -->
+
+    <!-- Modal Box Detail Start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="assets/img/product/product1.png" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur facere ducimus cupiditate vel aliquam velit vero, doloremque eum earum.</p>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box End -->
 
     <!-- feather icon -->
     <script>
