@@ -396,6 +396,10 @@ body {
   height: 15rem;
   margin: 1.5rem 0;
 }
+
+.product-stars {
+  color: yellow;
+}
 /* Products End */
 
 /* Location */
