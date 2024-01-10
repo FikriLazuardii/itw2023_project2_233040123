@@ -356,16 +356,17 @@ body {
 
 /* Products */
 .products .row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  justify-content: center;
 }
 
 .products .product-card {
   text-align: center;
   border: 2px solid #666;
   padding: 2rem;
+  margin: 1.5rem;
 }
 
 .products .product-icons {
@@ -392,7 +393,8 @@ body {
 }
 
 .products .product-image img {
-  height: 25rem;
+  height: 15rem;
+  margin: 1.5rem 0;
 }
 /* Products End */
 
