@@ -3,12 +3,46 @@
 /* Laptop */
 @media (max-width: 1366px) {
   html {
-    font-size: 75%;
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 85%;
+  }
+
+  .menu .row .box h3 {
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
+  }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+  }
+
+  .about .row .content p {
+    font-size: 1.6rem;
   }
 }
 
 /* tab */
-@media (max-width: 768px) {
+@media (max-width: 884px) {
   html {
     font-size: 90%;
   }
@@ -127,8 +161,25 @@
     all: unset;
   }
 
+  .navbar .search-form {
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .modal .modal-container {
+    width: 60%;
+    height: 37rem;
+  }
+
   .modal .modal-content {
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .modal .modal-content a {
+    width: 100%;
+    justify-content: center;
   }
 }
 
@@ -148,5 +199,14 @@
 
   .shopping-cart {
     width: 23rem;
+  }
+
+  .navbar .search-form {
+    width: 20rem;
+  }
+
+  .modal .modal-container {
+    width: 80%;
+    height: 40rem;
   }
 }
