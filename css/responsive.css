@@ -63,6 +63,11 @@
 
   .navbar .navbar-nav.active {
     right: 0;
+    border-left: 1px solid var(--third);
+  }
+
+  .navbar .navbar-logo img {
+    width: 80%;
   }
 
   .navbar .navbar-nav a {
